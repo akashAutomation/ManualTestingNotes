@@ -1,0 +1,439 @@
+Software --> A software is a collection of computer programs that helps us to perform a task.
+
+Types of software --> 
+	1. System s/w --> System s/w is used to run the systems
+			  ex. Operating system, Device drivers, Servers, Utilities etc.
+
+	2. Programming s/w --> To execute the programs and providing the output. Mostly used by developers.
+			  ex. Compilers, debuggers, interpreters etc. 
+	
+	3. Application s/w --> users will directly use that s/w.
+			  ex. Web App., Mobile apps, Desktop app. etc.
+
+Software Testing --> 1. Software testing is a part of s/w development process.
+		     2. S/w testing is an activity to detect and identify the defects in the s/w.
+		     3. The objective of testing is to deliver quality product to the client.
+		     4. S/w testing is the process of verification and validation of the s/w to check whether it is workig as per expectations.
+
+Software Qulity or quality perameters--> 1. Bug-free.
+	              			 2. Delivered on time.
+		    			 3. Within budget.
+		    			 4. Meets requirements and/or expections.
+		    			 5. Maintainable.
+
+Project vs Product --> 1. If s/w app is developed for specific customer based on the requirements then it is called Project. 
+			  ex. any banking project	
+		       2. If s/w app is developed for multiple customers based on the market requirements then it is called Product.
+			  ex. Whatsapp, facebook, Microsoft apps etc.
+	 
+	 * Service based companies are deals with project. They work for specific clients. ex. TCS, Accenture, Capgemini etc.
+	 * Product based companies are deals with product. They work on the basis of market requirements and that product will be used by multiple cutomers.    	    ex. Google, Microsoft, Apple, Amazone etc.   
+	
+Error --> 1. Error is a human action that produces an incorrect result.
+	  2. The mistakes in coding made by programmer is known as an ‘Error’. If developer can not compile or run a program successfully then they call it 	     as an Error.
+	  3. This could happen because of the following reasons:
+	      a. Some confusion in understanding the requirement of the software
+	      b. Some miscalculation of the values
+	      c. Or/And Misinterpretation of any value, etc
+		 ex. A developer may misunderstand a de-sign notation, or a programmer might type a variable name incorrectly – leads to an 		     		     Error. It is the one that is generated because of the wrong login, loop or syntax.
+
+
+Bug --> 1. A Bug is the result of a coding Error which is found by the tester in testing phase, causes the program to behave in an unintended or 	   	   unanticipated manner. 
+        2. Bugs arise from mistakes and errors, made by people, in either a program's source code or its design.
+	3. The test engineers use the terminology Bug.
+	4. Defect accepted by the development team is called bug.
+	5. Bug is an informal name for the defect.
+	6. Causes of bugs :
+		a. Miscommunication or no communication.
+		b. S/w complexity.
+		c. Programming errors.
+		d. frequently Changing requirements.
+		c. Lack of skilled testers.
+
+Defect --> 1. Defect is defined as the deviation from the actual and expected result of application or software.
+	   2. Testers identify the defect while initial phase of testing.
+	   3. Bug is a defect but not all defects are bugs. --> Bug is called defect only when there is mistake from developer side. But mistake done by 	              stakeholders or some pepole in before the coding phase like design, requriment then it is called only defect. 
+
+Failure --> 1. Once the product is developed and customers find any issue then they call the product as a failure product.
+	    2. After release, if an end user finds an issue then that particular issue is called as failure.
+	    3. Any bug found at the time of user accepting testing(UAT) or production is known as failure.
+	    4. Causes of Failure:
+		a. Human errors or mistakes may lead to failure.
+		b. Environmental conditions
+		c. The way in which system is used.
+
+-->	A mistake in coding is called Error, error found by tester is called Defect, defect accepted by development team then it is called Bug, build does         not meet the requirements then it Is Failure.
+
+*****************************************************************************************
+
+S/w Development life cycle(SDLC) --> SDLC is a process used by s/w industry to design, develop and test the software's.
+ 
+1. Requirement Analysis --> collect the requirement from customer and prepare a document called S/w requirement specification(SRS).
+2. Design --> to design the blueprint of the product based on SRS.
+3. Development/Implementation/Coding --> To implement that blueprint into actual product by coding in different languages.
+4. Testing --> test the developed product before delivering the product.
+5. Maintenance/Deployment --> Deploy the product to customer.
+
+Waterfall model --> It is also called linear model.
+	
+	Advantages --> 1. Quality of the product will be good.
+		       2. Since requirement changes are not allowed, so chances of finding bugs will be less.
+		       3. Initial investment is less since the testers are hired at the larger stages. --> bcoz after the coding phase then only testers 			  will be hired.
+		       4. Preferred for small projects where requirements are fixed.
+
+
+	Disadvantages --> 1. Requirement changes are not allowed. bcoz we can not go to the previous phase.
+			  2. If there is defect in requirement phase that will be continued in later phase also.
+			  3. Total investing is more because time taking for rework on defect is time consuming which leads to high investment. 
+			  4. Testing will start only after coding.
+
+
+Spiral model --> 1. spiral model is iterative model.
+		 2. spiral model overcome drawbacks of waterfall model.
+		 3. we follow spiral model whenever there is dependency on the the modules.
+		 4. in every cycle new s/w will be released to customer.
+		 5. S/w will be released in multiple versions. so it is called version control model.
+		 6. This model is suitable for product based comapny where product needs to be released with updated version in every cycle. 
+			Ex. whatsapp, facebook app, instagram, etc.  
+
+	Adv. --> 1. testing is done in every cycle before going to the next cycle.
+		 2. customer will get to use the s/w for every module.
+		 3. requirement changes are allowed after every cycle before going to the next cycle.
+
+	disadv --> 1. Requirement changes are not allowed in between the cycle.
+		   2. Every cycle of spiral model looks like waterfall model. so whatever drwaback of waterfall model comes in spiral also.
+		   3. There is no testing requirements and design phase.
+
+
+Static testing --> 1. In static testing, we will check the code or the application without executing the code.
+		   2. Manual or automated reviews of code, requirement documents and document design are done in order to find the errors.
+		   3. It is performed in the early stage of the software development to find sources of failures and it can be fixed easily. It		                           prevents the defects.
+		   4. Static testing is performed in the white box testing phase, where the programmer checks every line of the code before handling over to 		      the Test Engineer.
+		   5. Static testing includes activities like code Review, Walkthrough, inspection.
+		   6. It involves the checklist and process which has been followed by the test engineer.
+		   7. Static testing is less costly. 
+		   8. Static testing is a Verification Process.
+                   9. Static testing techniques are structural and statement coverage.
+
+Dynamic Testing --> 1. In dynamic testing, we will check the code/application by executing the code.
+		    2. It involves functional testing [unit, integration, and system testing] and non-functional testing [user acceptance testing] are 		      		       performed.
+		    3. It is performed at the later stage of the software development means after developed the code.
+		    4. Dynamic testing finds and fixes the defects.
+		    5. This type of testing required the test case for the execution of the code.
+		    6. Dynamic testing is highly costly.		       
+		    7. Dynamic testing is a Validation Process.
+		    8. Dynamic testing executes the software and validates the output with the expected outcome. Dynamic testing is performed at all levels 		               of testing and it can be either black or white box testing.
+	            9. Dynamic testing techniques are Boundary Value Analysis & Equivalence Partitioning.
+
+Verificaion --> 1. Verification checks whether we are building the right product. Means we are covering all requirements or not.
+		2. It is the Static testing.
+		3. Verification process includes checking of documents, design, code and program.
+		4. Verification uses methods like reviews, walkthroughs, inspections.
+		5. It does not involve executing the code.  
+		6. It can catch errors that validation cannot catch. It is low level exercise.
+		7. Verification is done by QA team to ensure that the software is as per the specifications in the SRS document.
+
+Validation --> 1. Validation checks whether we are building the product right means whatever product we have build which is right or not.
+	       2. Validation is the dynamic testing.
+	       3. Validation process includes testing and validation of the actual product. 
+	       4. Validation uses methods like black box testing, white box testing and non-functional testing.
+	       5. It always involves executing the code.
+	       6. It can catch errors that verification cannot catch. It is High Level Exercise.
+	       7. Validation is carried out with the involvement of testing team.
+
+***********************************************************************************************************************************************************
+Levels of testing : Unit testing -> Integeration Testing -> System Testing -> User Acceptance Testing(UAT)
+
+Unit Testing --> 1. Validation of an individual software component or module is called Unit Testing. Generally, the developers perform it and not by the QA 		            Engineers, as it requires detailed knowledge of the internal program design and code.
+		 2. Whitebox testing technique.
+
+Integeration Testing --> 1. Integeration testing performed between 2 or more modules.
+			 2. Integeration testing focuses on checking data communication b/w multiple modules.
+			 3. Whitebox testing technique.
+		
+	Types : 1. Incremenal Integeration testing --> Incrementally adding the modules and testing the data flow b/w the modules.
+			Approaches: 1. Top Down --> Incrementally adding the modules and testing the data flow b/w the modules and ensure the module is the 						    child of previous module.
+				    2. Bottom Up --> Ensure the module added is the parent of the previous module. 
+				    3. Sandwich/Hybrid approach --> Combination of Top Down and Bottom Up.
+
+		2. Non-Incremenal Integeration testing --> Adding all the modules in a single shot and test the data flow b/w modules.
+			Drawback: 1. We might miss data flow b/w some of the modules.
+				  2. If you find any defect we can not understand the root cause of defect.
+
+System Testing --> 1. Testing overall functionality of the application with respective client requirements.
+		   2. It is a black box testing technique.
+		   3. This testing is conducting by testing team.
+		   4. After completion of unit and integeration testing then we start system testing.
+		   5. Before conducting system testing we should know the customer requirements.
+		   6. System testing focusses on :
+			a. Graphical User Interface Testing(GUI) -->check only UI related things like alignments, logo, web elements, colors etc.
+			b. Functional testing --> To check functionality means behaviour of the app like login, logout, Error handling, Cookies & 								  sessions, data manipulation & claculation, database and other modules.
+			c. Non-functional Testing --> Security, installaiton, performance etc.
+			d. Usability Testing --> Verify user manuals with which a user can learn to operate application.It is usually performed by endusers.
+
+User Acceptance Testing(UAT) --> 1. After completion of system testing, UAT is done by the customer before accepting the final product.
+				 2. Generally, UAT is done by the customer (domain expert) for their satisfaction, and check whether the application is 				            working according to given business scenarios, real-time scenarios.
+				 3. We perform this testing in the final phase of testing before moving the software application to the Market or Production 				    environment.
+				 4. User Acceptance Testing is also known as End-User Testing, Acceptance Testing and Operational Acceptance Testing (OAT).
+				 5. It is a black box testing technique.
+	
+	Types: 1. Alpha testing --> Alpha Testing is done in development environment. Developers, as well as business analysts, are involved with the 				    testing team.
+	       2. Beta testing --> Beta Testing is done at the client-side by the real users or customer, therefore developers and business analysts are not 				   at all involved.
+
+
+
+
+**********************************************************************************************************************************************************
+
+Functional Testing --> 1. Functionality is nothing but behaviour of the app.
+		       2. Functional testing talks about how our feature should work.
+	
+	feature: 1. Object Properties Testing --> check the properties of objects/elements present on the application.
+							ex. enable, disable, visible, focus etc.
+		 
+		 2. Database Testing --> check user operations, ex-> insertion, deletion, update, select etc.
+		 3. Error handling -->  1. Testers verify the error messages while performing incorrect actions on the app.
+		  			2. Error messages should be readable. User understandable/ Simple language.
+		 
+		 4. Calculations/Manipulations testing --> Tester should verify the calculations. 
+		 5. Links Existance &  Link execution --> 1. Links Existance means, where exactly the links are placed according to the document.
+							  2. Link execution means, Links are navigating to proper page or not. 	
+			Note: 3 types of links:
+				1. Internal Links --> when click on link which will navigate to the same page.
+				2. External Links --> when click on link which will navigate to the other page.
+				3. Broken Links --> when click on link which will not navigate anywhere else. This is used for add links in future.
+		 
+		 6. Cookies & Sessions --> 1. Cookies are temperory files which are created by the browser to browse data through internet. 
+					   2. Sessions are time slots created by the server. Session will be expired after some time(If you are idle for 					      some time).
+
+Non Functional Testing --> 1. Once the app functionality is stable the we do non-functional testing.
+			   2. Focus on performance, load it can take and security etc.
+
+	Types: 1. Peformance Testing --> Speed if the app
+			types: 1. Load testing --> Gradually Increasing the load on the app slowly then check the spped of the app.
+			       2. Stress testing --> Suddenly increase/decrease the load on the app.
+			       3. Volume testing --> Check how much data is able to handle by the app.	  
+
+	       2. Security Testing --> How secure our app.
+			Authentication --> Users are valid or not.
+			Autherization/Access control --> Permission of the valid user. ex. Account dep. users can not access IT dep or vice versa.		
+ 
+	       3. Recovery Testing --> check the system change to abnormal to normal. ex. we are working on any app and then it will disconnect so after 					connection again establish then app should be start where we left. 
+
+
+	       4. Compatibility Testing --> It is compatible or not.
+	       5. Installation testing --> Check screens are clear to understand.
+	       6. Sanitation/Garbage Testing  --> If any app provides extra features/functionality then we consider them as bug.
+
+******************************************************************************************************************************************************
+
+Regression Testing --> 1. Testing conducts on modified build to make sure there will not be impact on existing functionality bcoz of changes like adding,                           deleting, modifing features.
+	
+Re-Testing --> 1. Whenever the developer fixed a bug, tester will test only the bug fix is called Re-Testing.
+	       2. Tester close the bug if it worked otherwise re-open and send to developer.
+	       3. To ensure that the defects which were found and posted in the earlier build were fixed or not in the current build.
+		  ex-> Build 1.0 was released, Test team found some defects(defect id 1.0.1,1.0.2) and posted.
+		       Now build 1.1 was released, now testing the defects 1.0.1 and 1.0.2 in this build is called retesting. 
+
+Smoke Testing --> 1. Smoke test is done to make sure the build we received from the development team is testable/stable or not. if not stable than reject that 		     build.
+		  2. Smoke testing is performed by both developers and testers.
+		  3. It is done every time there is a new build release.  
+		  4. tester need to chek the navigations, login, adding simple thing etc.
+		  5. It is done on initial builds.
+		  6. It is a part of basic testing.
+
+Sanity testing --> 1. Sanity testing is done to check the new functionality/bugs have been fixed.
+		   2. It is performed by the tester.
+		   3. It is done on stable builds.
+		   4. It is a part of regression testing.
+
+
+Exploratory Testing --> 1. We have to explore the app, understand and test it. 
+			2. Understand the app, identify all possible scenario, document it then use it for testing.
+			3. We do exploratory testing when the app is ready but there is no requirement/Documentation.
+			4. In exploratory testing, Tester use their knowledge, skills and experience to test the software.
+			5. It takes no preparation bcoz it is an unscripted testing technique.
+			6. It finds critical defects very quickly.
+		Drawbacks: 1. You might misunderstand any feature as a bug or any bug as a feature since you don't have requirement/Documentation.
+			   2. Time consuming.
+			   3. If there is any bug in app, you will never know about it.
+
+Adhoc testing --> 1. Testing app randomly without any testcases or business requirement document.
+		  2. It is an informal testing type with an aim to break the system.
+		  3. It is an unplanned activity.
+		  4. In exploratory testing, Tester use their knowledge, skills and experience to test the software.
+		  5. It is best where the deadline is very short.
+
+Monkey Testing --> 1. Testing app randomly without any testcases or business requirement document.
+		   2. It is an informal testing type with an aim to break the system. 
+		   3. Tester do not have knowledge of app.
+		   4. suitable for gaming app.
+
+Positive testing --> 1. Testing the app with valid inputs.
+Negative testing --> 1. Testing the app with invalid inputs.
+
+End-to-End testing --> 1. Testing the overall functionalites of the system including the data integeration among all the modules.
+
+************************************************************************************************************************************************************
+
+Software Testing Life Cycle(STLC) --> Software Testing Life Cycle (STLC) is a sequence of specific activities conducted during the testing process to ensure 				      software quality goals are met. STLC involves both verification and validation activities.
+
+Q. What is Entry and Exit Criteria in STLC?
+A. Entry Criteria --> Entry Criteria gives the prerequisite items that must be completed before testing can begin.
+   Exit Criteria --> Exit Criteria defines the items that must be completed before testing can be concluded
+   	You have Entry and Exit Criteria for all levels in the Software Testing Life Cycle (STLC)
+	
+1. Requirement Analysis --> 1. Analyses requirement document of SDLC to examine requirements stated by the client.
+		outcome --> Project plan, functional requirements
+
+2. Test Planning --> 1. What to test, how to test, when to test.
+			     2. Identify the resources.
+			     3. Team formation
+			     4. preparation of test plan
+			     5. Test estimation
+			     6. Reviews on test plan
+			     7. Test plan signoff.
+			
+		outcome --> Test plan document, usecases.
+
+3. Test Design --> 1. Preparation of test scenarios.
+		   2. Preparation of test cases.
+		   3. Reviews on test cases.
+		   4. Requirement Traceablity Matrix --> Requirement Traceability Matrix (RTM) is a document that maps and traces user requirement 			              with test cases.
+		   5. Test case sign-off
+
+		outcome --> Test cases document, Requirement Traceablity Matrix
+	
+4. Test Execution --> 1. Executing testcases.
+		      2. Preparation of test report/ Test Log
+		      3. Identifying defects.
+
+		outcome --> Status/test reprts
+
+5. Defect Reporting & tracking --> 1. Preparation of defect report.
+				   2. Reporting defects to developer
+
+		outcome --> Defect report
+
+6. Test closure/ sign-off --> 1. Analyzing Test reports.
+			      2. Analyzing Bug Reporting
+			      3. Evaluating exit criteria
+
+		outcome --> Test summary report
+
+**********************************************************************************************************************************************************
+
+Use case --> Describe functional requirement, prepared by business Analyst.
+Test case --> Describe test steps/ procedure, prepared by test engineer.
+
+Defects --> Any mismatched functionality found in app is called as defect/bug/issue
+
+Defect reporting tool --> Clear Quest, Jira, Quality center, Bug Jilla etc.
+
+Defect report contents --> 1. Defect ID --> Unique identification  number for the defect.
+			   2. Defect description --> Detailed description about defect.
+			   3. Version --> Version of the appin which defect found.
+			   4. Steps --> Detailed steps along with screenshot with which can developer can reproduce the defect.
+			   5. Date Raised --> Date when the defect is raised.
+			   6. Detected by --> Name/id of the tester who raised the defect.
+			   7. Status --> Status of the defect like New, Open, In Progress, Closed.
+			   8. Fixed by --> Name/id of the Developer who fixed the defect. 
+			   9. Date closed --> Date when the defect is closed.
+			  10. Severity --> which describes the impact of the defect on the app.
+			  11. Priority --> Which is related to defect fixing urgency.
+
+
+Severity --> Severity describes the seriousness of defects and how much impact on business workflow.
+	types: 1. Blocker(Show stopper) --. This defect indicate nothing can proceed further.
+					    ex-> Application crashed, login not worked.
+		
+	       2. Critical --> The main/basic functionallity is not working. Customer business workflow is broken. They cannot proceed further.
+				ex-> Fund transfer is not working, Ordering product is not working.
+
+	       3. Major --> It cause some undesirable behaviour, but the feature/app is still functional.
+				ex-> After sending email there is no confirm message, After booking cab there is no confirmation.
+
+	       4. Minor --> It won't cause any major break down of the system.
+				ex-> Look and feel issues, spellings, alignments.		
+
+Priority --> 1. Priority describes the imortance of defect.
+	     2. Defect priority states the order in which a defect should be fixed.
+	     3. Priority can be changed later by the developer and business analyst also based on the impact on app.
+	
+	types: 1. P0(High) --> The defect must be resolved immediately as it affects the system severly and cannot be used until it is fixed.
+	       2. P1(Medium) --> It can wait until a new versions/builds is created.
+	       3. P2(Low) --> Developer can fix it in later releases. 
+
+Severity and priority examples --> 1. Low priority-Low severity --> 1. A spelling mistake in a page not frequently navigated bu users.
+								    2. Any spelling issues which is within a paragraph or in the page.
+				   2. Low p-High s --> 1. Applicaion crashing in some very corner case.
+						       2.Webpage not found when user clicks on a link(user does not visit that page generally) 
+				   3. high p- Low s --> Slight chane in logo color or spelling mistake in company name.
+				   4. high p- high s --> Issue with login functionality.
+
+Defect/bug life cycle --> 1. Defect Life Cycle or Bug Life Cycle in software testing is the specific set of states that defect or bug goes through in its 			     entire life.
+			  2. It varies from organization to organization and also from project to project as it is governed by the software testing process 			     and also depends upon the tools used.  
+	
+	States: 1. New --> When a tester find a bug and posting it very first time then the status of the defect is New.
+		2. Assigned --> Once the bug is posted by the tester, the lead of the tester approves the bug and assigns development team then the status 					of the defect is Assigned. 
+		3. Open --> The developer starts analyzing and works on the defect fix.
+		4. Fixed --> When a developer makes a necessary code change and verifies the change, he or she can make bug status as “Fixed.”
+		5. Pending retest --> Once the defect is fixed the developer gives a particular code for retesting the code to the tester. Since the                                     	      software testing remains pending from the testers end, the status assigned is “pending retest.”
+		6. Retest --> Tester does the retesting of the code at this stage to check whether the defect is fixed by the developer or not and changes 				      the status to “Re-test.”
+		7. Verified --> The tester re-tests the bug after it got fixed by the developer. If there is no bug detected in the software, then the bug 				is fixed and the status assigned is “verified.”
+		8. Reopen --> If the bug persists even after the developer has fixed the bug, the tester changes the status to “reopened”. Once again the 			      bug goes through the life cycle.
+		9. Closed --> If the bug is no longer exists then tester assigns the status “Closed.” 
+	       10. Duplicate --> If the defect is repeated twice or the defect corresponds to the same concept of the bug, the status is changed to 					         “duplicate.”
+	       11. Rejected --> If the developer feels the defect is not a genuine defect then it changes the defect to “rejected.”
+	       12. Deferred --> If the present bug is not of a prime priority and if it is expected to get fixed in the next release, then status 				                “Deferred” is assigned to such bugs
+	       13. Not a bug --> If it does not affect the functionality of the application then the status assigned to a bug is “Not a bug”.
+				 For an example: If customer asks for some change in the look and field of the application like change of color of some text 				 then it is not a bug but just some change in the looks of the  application.
+
+
+************************************************************************************************************************************************************
+
+Agile Model --> 1. It is an Iterative and Incremental Process.
+		2. There will be good communication b/w customer, Business Analyst, Developers and Testers.
+		3. In agile, both development and testing activites are concurrent.
+	
+	Agile Principle --> 1. Customer no need to wait for ling time.
+			    2. We develop, test and release peice of software to the customer with few number of features.
+			    3. We can accept/accomodate requirment changes.
+
+	Advantages --> 1. Requirement changes are allowed in any stage of development.
+		       2. Release will be very fast.
+		       3. Customer no need to wait for long time.
+		       4. Good communication b/w teams.
+		       5. It is very easy model to adopt.
+	
+	Dis --> 1. Less focus on design and documentation since we deliver s/w very faster.
+
+Scrum --> Scrum is a framework through which we build the s/w product by following agile priniciples.
+
+Scrum team --> Scrum includes group of people called as scrum team. Normally contains 5-9 members.
+	1. Product Owner --> 1. Define the features of the product.
+			     2. Prioritize features according to market value.
+			     3. Adjust features and priority every iteration, as needed.
+			     4. Accept or reject work result.
+			
+	2. Scrum Master --> 1. The main role is facilitating and driving the agile process.
+			    2. He is not belong to any team. It has a specific role who has having skillset of agile.
+			    3. he will make sure that everyone is following the process or not.
+	
+	3. Dev and QA Team --> Develop and test the s/w.
+
+User story --> A feature/module in a s/w.
+Epic --> Collection of user stories.
+Product backlog --> contains list of user stories which is repared by the product owner.
+
+Sprint/Iteration --> Period of time to complete the user stories, decided by the product owner and team, usually 2-4 weeks of time.
+Sprint planning --> Meating conducts with the team to define what can be delivered in the sprint and duration.
+Sprint backlog --> List of commited stories by dev/QA for specific sprint.
+Scrum meeting/Daily Scrum/Scrum call/Standup meeting --> Meeting conducted by scrum master everyday 15 min.
+Sprint Review --> conduct meeting internally to review the work completed in the sprint. 
+Sprint retrospective --> conduct meeting after completion of sprint. The entire team including  both the scrum master and the product owner should 			                 participate. Identify areas for continuous improvement(maintenance).
+
+Roles --> Product owner, Scrum master, Team(dev/QA)
+Artefacts --> Product backlog, Sprint backlog, burndown chart.
+Ceremonies --> Sprint planning, Daily Scrum, Sprint Review. 
+  				   
